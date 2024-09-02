@@ -19,6 +19,116 @@ html, body {
 }
 
 
+nav {
+    border: 1px solid red;
+    color: #636363;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header{
     background-color: #FFE500;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; /*Alinhar ao centro */
+}
+
+.card{
+    background-color: white;
+    border-radius:  4px;
+    border: 1px solid #D9D9D9;
+
+}
+#product-details{
+    padding: 20px 0;
+}
+
+.card-top{
+   
+    padding: 10px;
+    display: flex;
+   justify-content: center;
+   border-bottom: solid #D9D9D9;
+
+}
+
+.card-top img{
+    width: 220px;
+}
+
+.card-bottom{
+    padding: 10px 20px 20px 20px;
+}
+
+.card-bottom h3{
+    color: #0CAF1D;
+    font-size: 20px;
+}
+
+.card-bottom h4 {
+    color: #636363;
+    font-size: 12px;
+
+}
+
+.card-bottom p{
+    color: #636363;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.category-container{
+    display: flex;
+    
+}
+
+.category{
+    padding: 0 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    background-color: #636363;
+    height: 30px;
+    color: white;
+    font-weight: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    width: 220px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn{
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue{
+    background-color: blue;
+    color: white;
+}
+
+.btn-white{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.mb20{
+    margin-bottom: 20px;
+
 }
