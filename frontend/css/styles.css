@@ -55,31 +55,31 @@ header{
     align-items: center;
 }
 
-.container {
+.laf-container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto; /*Alinhar ao centro */
 }
 
-.card{
+.laf-card{
     background-color: var(--dsc-color-card-bg);
     border-radius:  4px;
     border: 1px solid var( --dsc-color-font-placeholder);
 
 }
 
-.line-bottom{
+.laf-line-bottom{
     border-bottom: solid var( --dsc-color-font-placeholder);
 }
 
 
-.btn-container{
+.laf-btn-container{
     width: 220px;
     display: grid;
     grid-gap: 20px;
 }
 
-.btn{
+.laf-btn{
     border-radius: 4px;
     height: 42px;
     font-size: 16px;
@@ -89,17 +89,17 @@ header{
     align-items: center;
 }
 
-.btn-blue{
+.laf-btn-blue{
     background-color: var(--dsc-color-btn-primary);
     color: var(dsc-color-bg-primary);
 }
 
-.btn-white{
+.laf-btn-white{
     background-color: var(dsc-color-bg-primary);
     color:var ( --dsc-color-btn-primary);
     border: 1px solid var( --dsc-color-btn-primary);
 }
-.mb20{
+.laf-mb20{
     margin-bottom: 20px;
 
 }
