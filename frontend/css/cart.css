@@ -35,8 +35,27 @@
     color: #0CAF1D;
     font-size: 12px;
     font-weight: 700;
+    padding: 10px 0;
 }
 
 .cart-item-description{
     padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #636363;
+}
+
+.cart-item-description h3{
+    font: 12px;
+    
+}
+
+.cart-item-quantity-btn{
+    color: blue;
+    cursor: pointer;
+}
+
+.cart-item-description p{
+    margin: 0 3px;
+    
 }
