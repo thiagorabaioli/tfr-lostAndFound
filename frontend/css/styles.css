@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+    --dsc-color-bg-primary: #e8e8e8;
+    --dsc-color-bg-secondary: #ffe500;
+    --dsc-color-bg-tertiary: #636363;
+    --dsc-color-bg-quaternary: #0caf1d;
+  
+    --dsc-color-card-bg: #fff;
+    --dsc-color-card-border: #d9d9d9;
+  
+    --dsc-color-btn-primary: #3483fa;
+    --dsc-color-btn-inverse: #fff;
+  
+    --dsc-color-font-primary: #636363;
+    --dsc-color-font-secondary: #0caf1d;
+    --dsc-color-font-tertiary: #fff;
+    --dsc-color-font-placeholder: #d9d9d9;
+  
+    --dsc-color-error: #f33;
+
+}
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +32,7 @@
 
 html, body {
 
-    background-color: #E8E8E8;
+    background-color: var(--dsc-color-bg-primary);
    
 }
 
@@ -19,7 +42,7 @@ html, body {
 }
 
 nav {
-    color: #636363;
+    color: var(--dsc-color-bg-tertiary);
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -27,7 +50,7 @@ nav {
 }
 
 header{
-    background-color: #FFE500;
+    background-color: var(--dsc-color-bg-secondary);
     display: flex;
     align-items: center;
 }
@@ -39,14 +62,14 @@ header{
 }
 
 .card{
-    background-color: white;
+    background-color: var(--dsc-color-card-bg);
     border-radius:  4px;
-    border: 1px solid #D9D9D9;
+    border: 1px solid var( --dsc-color-font-placeholder);
 
 }
 
 .line-bottom{
-    border-bottom: solid #D9D9D9;
+    border-bottom: solid var( --dsc-color-font-placeholder);
 }
 
 
@@ -67,14 +90,14 @@ header{
 }
 
 .btn-blue{
-    background-color: blue;
-    color: white;
+    background-color: var(--dsc-color-btn-primary);
+    color: var(dsc-color-bg-primary);
 }
 
 .btn-white{
-    background-color: white;
-    color: blue;
-    border: 1px solid blue;
+    background-color: var(dsc-color-bg-primary);
+    color:var ( --dsc-color-btn-primary);
+    border: 1px solid var( --dsc-color-btn-primary);
 }
 .mb20{
     margin-bottom: 20px;
