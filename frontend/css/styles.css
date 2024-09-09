@@ -21,8 +21,6 @@
 
 }
 
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,6 +39,24 @@ html, body {
     text-decoration: none;
 }
 
+/*-------------------------------------------*/
+/*generic styles*/
+.laf-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; /*Alinhar ao centro */
+}
+.laf-mb20{
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------------*/
+/*header styles*/
+header{
+    background-color: var(--dsc-color-bg-secondary);
+    display: flex;
+    align-items: center;
+}
 nav {
     color: var(--dsc-color-bg-tertiary);
     height: 70px;
@@ -49,17 +65,18 @@ nav {
     align-items: center;
 }
 
-header{
-    background-color: var(--dsc-color-bg-secondary);
-    display: flex;
-    align-items: center;
+nav a {
+    font-size: 14px;
+    font-weight: 700;
 }
 
-.laf-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto; /*Alinhar ao centro */
+
+nav a {
+    font-size: 24px;
 }
+
+/*-------------------------------------------*/
+/*card styles*/
 
 .laf-card{
     background-color: var(--dsc-color-card-bg);
@@ -73,6 +90,8 @@ header{
 }
 
 
+/*-------------------------------------------*/
+/*btn styles*/
 .laf-btn-container{
     width: 220px;
     display: grid;
@@ -99,7 +118,5 @@ header{
     color:var ( --dsc-color-btn-primary);
     border: 1px solid var( --dsc-color-btn-primary);
 }
-.laf-mb20{
-    margin-bottom: 20px;
 
-}
+
