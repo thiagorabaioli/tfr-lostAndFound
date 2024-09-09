@@ -34,6 +34,10 @@ html, body {
    
 }
 
+main{
+    padding: 0 10px;
+}
+
  a, a:hover {
     color: unset;
     text-decoration: none;
@@ -56,6 +60,7 @@ header{
     background-color: var(--dsc-color-bg-secondary);
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 nav {
     color: var(--dsc-color-bg-tertiary);
@@ -93,9 +98,15 @@ nav a {
 /*-------------------------------------------*/
 /*btn styles*/
 .laf-btn-container{
-    width: 220px;
+    width: 100%;
     display: grid;
     grid-gap: 20px;
+}
+
+@media (min-width: 576px){
+    .laf-btn-container{
+        width: 220px;
+    }
 }
 
 .laf-btn{
