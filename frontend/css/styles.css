@@ -53,6 +53,9 @@ main{
 .laf-mb20{
     margin-bottom: 20px;
 }
+.laf-mt20{
+    margin-top: 20px;
+}
 
 /*-------------------------------------------*/
 /*header styles*/
@@ -128,6 +131,17 @@ nav a {
     background-color: var(dsc-color-bg-primary);
     color:var ( --dsc-color-btn-primary);
     border: 1px solid var( --dsc-color-btn-primary);
+}
+
+.btn-next-container{
+    border: 1px solid var(--dsc-color-btn-primary);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--dsc-color-btn-primary);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
