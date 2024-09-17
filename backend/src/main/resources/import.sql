@@ -1,0 +1,3 @@
+INSERT INTO tb_item_perdido (type_of_lost, date_found, description, location_found, who_find) VALUES (1, TIMESTAMP WITH TIME ZONE '2024-10-28T13:00:00Z', 'wallet with documents in name of Sra. Lucia Cruz', 'Checkout 15', 'Operator number 00001');
+INSERT INTO tb_item_perdido (type_of_lost, date_found, description, location_found, who_find) VALUES (1, TIMESTAMP WITH TIME ZONE '2024-10-23T13:00:00Z', 'House Keys', 'Men''s changing rooms', 'Edgar Silva');
+INSERT INTO tb_item_perdido (type_of_lost, date_found, description, location_found, who_find) VALUES (2, TIMESTAMP WITH TIME ZONE '2024-10-20T13:00:00Z', 'Pink Childrens backpack', 'Gastronomy Section', 'Client sra. Carla Silva');
