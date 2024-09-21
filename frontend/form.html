@@ -7,21 +7,24 @@
     <title>LostAndFound APP</title>
 
 
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/product-form.css">
 </head>
 
 <body>
     <header>
         <nav class="laf-container">
             <h1>LostAndFound APP</h1>
-            <a href="#">Entrar</a>
+            <div class="laf-logged-user">
+                <p>Maria Silva</p>
+                <a href="#">Sair</a>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="login-section" class="laf-container">
-            <div class="laf-login-from-container">
+        <section id="product-form-section" class="laf-container">
+            <div class="laf-product-from-container">
                 <form class="laf-card laf-form">
-                    <h2>Login</h2>
+                    <h2>Dados do Produto</h2>
                     <div class="laf-form-controls-container">
                         <div>
                             <input class="laf-form-control laf-input-error" type="text" placeholder="Email" />
@@ -35,8 +38,9 @@
                       
                     </div>
                    
-                    <div class="laf-login-form-buttons laf-mt20">
-                        <button type="submit" class="laf-btn laf-btn-blue">Entrar</button>
+                    <div class="laf-product-form-buttons laf-mt20">
+                        <button type="reset" class="laf-btn laf-btn-white">Limpar</button>
+                        <button type="submit" class="laf-btn laf-btn-blue">Salvar</button>
                     </div>
                 </form>
                 
